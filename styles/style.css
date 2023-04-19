@@ -15,6 +15,11 @@ button:not([disabled]) {
   cursor:pointer;
 }
 
+@font-face {
+  font-family: 'pokemon';
+  src: url(../fonts/pocketmonk-15ze-webfont.woff);
+}
+
 
 
 
@@ -37,9 +42,95 @@ button:not([disabled]) {
 
 h1 {
   color:var(--color-headings);
+  font-family: 'pokemon';
+  text-align: center;
 }
 
+article {
+  background-color: rgb(177, 0, 0);
+  max-width: 34em;
+  padding: 0.7em;
+  
+  position: fixed;
+  bottom: 0.7em;
+  right: 0.5em;
+  left: 0.5em;
+  justify-content: center;
 
-/* ... */
+  box-shadow:
+    inset -.10em -.10em .25em rgb(102 102 102),
+    inset .10em .10em .25em rgb(255 255 255),
+    0.8em 0.8em 0.6em rgb(0 0 0 / .5);
+}
 
+article section {
+  max-width: 30em;
+  background-color: rgb(77, 77, 255);
+  box-shadow:
+    inset -.15em -.15em .1em rgb(51 58 64),
+    inset .15em .15em .1em rgb(51 58 64);
+  justify-content: center;
+}
 
+ol {
+  display: grid;
+	grid-template-columns: repeat(auto-fit, 6em);
+  list-style: none;
+  justify-content: center;
+  padding: 0.3em;
+  gap: 0.6em;
+  
+  overflow-y: scroll;
+  height: 15em;
+}
+
+/*Bron: https://blog.hubspot.com/website/hide-scrollbar-css#:~:text=To%20hide%20the%20scrollbar%20and%20disable%20scrolling%2C%20we%20can%20use,page)%20or%20a%20container%20element.*/
+ol::-webkit-scrollbar {
+  display: none;
+}
+
+li {
+  width: 96px;
+}
+
+li img {
+  height: 6em;
+}
+
+li button img {
+  height: 6em;
+  animation: pokeball;
+}
+
+li p {
+  text-align: center;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  font-family: 'pokemon';
+  font-size: x-large;
+  color: white;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+button img {
+  overflow: hidden;
+  transition-duration: 1.3s;
+  transition-property: transform;
+}
+button img:hover {
+  transform: rotate(1turn);
+}
+
+#pikachu1 , #pikachu2 , #pikachu3 {
+  width: 30%;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+}
