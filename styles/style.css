@@ -7,6 +7,7 @@
   font-style: normal;
 }
 
+
 /*************/
 /* CSS RESET */
 /*************/
@@ -14,6 +15,12 @@
 /* naar een idee van Jen Simmons */
 *, *::after, *::before {
   box-sizing:border-box;  
+}
+
+html {
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 body {
@@ -42,6 +49,13 @@ button:not([disabled]) {
   --pokedex-scherm: rgb(77, 77, 255);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --pokedex: rgb(117, 0, 0);
+    --pokedex-scherm: rgb(13, 13, 177);
+  }
+}
+
 
 
 
@@ -63,6 +77,13 @@ h2 {
   font-family: 'pokemon';
   text-align: center;
 }
+
+
+
+
+/**/
+/* POKEDEX */
+/**/
 
 article {
   background-color: var(--pokedex);
@@ -149,13 +170,13 @@ button img:hover {
 
 
 
+/**/
+/* PIKACHU AFBEELDINGEN */
+/**/
+
 .images {
   display: flex;
   justify-content: center;
-}
-
-@media (max-width: 600px) {
- 
 }
 
 #pikachu4 {
@@ -192,3 +213,54 @@ button img:hover {
   display:block;
 }
 
+/*animation: MoveUpDown 1s linear infinite;*/
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 100px;
+  }
+}
+
+#pikachu16 , 
+#pikachu17 , 
+#pikachu18 , 
+#pikachu19 , 
+#pikachu20 ,
+#pikachu21 ,
+#pikachu22 ,
+#pikachu23 , 
+#pikachu24 {
+  width: 280px;
+  margin-top: 2em;
+  border: 0.3em solid black;
+}
+
+
+
+
+
+/**/
+/* LANGS LOPENDE POKEMON */
+/**/
+@keyframes lucario{
+	from{
+    	margin-left: -20vw;
+    }
+	to{
+    	margin-left: 80vw;
+    }
+}
+
+main section:nth-child(3) img {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+
+	animation-name: lucario;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
