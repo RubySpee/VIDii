@@ -1,3 +1,12 @@
+/*Bron: https://www.fontspace.com/pocket-monk-font-f23540*/
+@font-face {
+  font-family: 'pokemon';
+  src: url('../fonts/pocketmonk-15ze-webfont.woff2') format('woff2'),
+       url('../fonts/pocketmonk-15ze-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*************/
 /* CSS RESET */
 /*************/
@@ -15,10 +24,7 @@ button:not([disabled]) {
   cursor:pointer;
 }
 
-@font-face {
-  font-family: 'pokemon';
-  src: url(../fonts/pocketmonk-15ze-webfont.woff);
-}
+
 
 
 
@@ -29,7 +35,11 @@ button:not([disabled]) {
 /*********************/
 
 :root {
-  --color-headings:crimson
+  --color-text: rgb(255, 230, 0);
+  --color-text-stroke: blue;
+  --color-h2: white;
+  --pokedex: rgb(177, 0, 0);
+  --pokedex-scherm: rgb(77, 77, 255);
 }
 
 
@@ -41,15 +51,24 @@ button:not([disabled]) {
 /********************/
 
 h1 {
-  color:var(--color-headings);
+  color:var(--color-text);
+  -webkit-text-stroke: 0.5px var(--color-text-stroke);
+  font-family: 'pokemon';
+  text-align: center;
+}
+
+h2 {
+  color:var(--color-text);
+  -webkit-text-stroke: 0.5px var(--color-text-stroke);
   font-family: 'pokemon';
   text-align: center;
 }
 
 article {
-  background-color: rgb(177, 0, 0);
+  background-color: var(--pokedex);
   max-width: 34em;
   padding: 0.7em;
+  margin: 0 auto;
   
   position: fixed;
   bottom: 0.7em;
@@ -65,7 +84,8 @@ article {
 
 article section {
   max-width: 30em;
-  background-color: rgb(77, 77, 255);
+  margin: 0 auto;
+  background-color: var(--pokedex-scherm);
   box-shadow:
     inset -.15em -.15em .1em rgb(51 58 64),
     inset .15em .15em .1em rgb(51 58 64);
@@ -108,7 +128,8 @@ li p {
   margin-bottom: 0.5em;
   font-family: 'pokemon';
   font-size: x-large;
-  color: white;
+  color:var(--color-text);
+  -webkit-text-stroke: 1px var(--color-text-stroke);
 }
 
 button {
@@ -126,11 +147,48 @@ button img:hover {
   transform: rotate(1turn);
 }
 
-#pikachu1 , #pikachu2 , #pikachu3 {
-  width: 30%;
-}
+
 
 .images {
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 600px) {
+ 
+}
+
+#pikachu4 {
+  width: 220px;
+}
+
+#pikachu5 {
+  width: 280px;
+}
+
+#pikachu8 , #pikachu10 {
+  width: 210px;
+}
+
+#pikachu12 {
+  width: 250px;
+}
+
+#pikachu13 {
+  width: 310px;
+}
+
+#pikachu15 {
+  width: 270px;
+}
+
+.images img {
+  display:none;
+  width: 280px;
+  height: auto;
+}
+
+.images img.show {
+  display:block;
+}
+
