@@ -233,7 +233,7 @@ button img:hover {
 #pikachu22 ,
 #pikachu23 , 
 #pikachu24 {
-  width: 280px;
+  width: 300px;
   margin-top: 2em;
   border: 0.3em solid black;
 }
@@ -255,10 +255,6 @@ button img:hover {
 }
 
 main section:nth-child(3) img {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-
 	animation-name: lucario;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
