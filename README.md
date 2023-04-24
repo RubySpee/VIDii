@@ -12,10 +12,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 ### Ontwerper:
-Sanne 't Hooft (vervangen door jouw naam)
+Ruby Spee
 
 #### Je startniveau:
-Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
+Blauw met een tintje rood
 
 
 
@@ -75,24 +75,7 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 <details>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
-  ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
-
-  #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
-
-  ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
-
-  #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
-
-  ### Bevinding 3:
-  ...
+  Ik moet nog de paaseieren toevoegen. Dat lukt nog niet, dus dat ga ik deze les vragen aan Sanne. Ik wil graag dat er een pokemon van rechts naar links gaat, onderin het beeld, maar de image wilt niet mee werken. Ik kreeg als feedback dat ik geluid kan gebruiken voor de buttons. Dat wilde ik al gaan doen, dus fijn dat iemand anders ook dat idee heeft. Tijdens de les kregen we een voorbeeld met een pop-up die je krijgt als je de pagina opent en dat er dan een geluidje komt als je erop klikt. Dat wilde ik gaan doen en dat je dan of Pikachu hoort of de titel song van Pokemon.
 
 </details>
 
