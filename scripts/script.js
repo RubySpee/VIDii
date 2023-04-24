@@ -2,8 +2,11 @@
 console.log("Howdy!");
 
 
+//REGEL 11 TOT 434 IS ALLEMAAL DEZELFDE CODE VOOR DE PIKACHU AFBEELDINGEN
+
+
 ////
-//button en image 1
+//BUTTON EN IMAGE 1
 ////
 var button1996 = document.querySelector("ol li:nth-of-type(1) button");
 
@@ -21,7 +24,7 @@ button1996.addEventListener("click", showPika1);
 
 
 ////
-//button en image 2
+//BUTTON EN IMAGE 2
 ////
 var button1998serie = document.querySelector("ol li:nth-of-type(2) button");
 
@@ -39,7 +42,7 @@ button1998serie.addEventListener("click", showPika2);
 
 
 ////
-//button en image 3
+//BUTTON EN IMAGE 3
 ////
 var button1998game = document.querySelector("ol li:nth-of-type(3) button");
 
@@ -57,7 +60,7 @@ button1998game.addEventListener("click", showPika3);
 
 
 ////
-//button en image 4
+//BUTTON EN IMAGE 4
 ////
 var button1999 = document.querySelector("ol li:nth-of-type(4) button");
 
@@ -75,7 +78,7 @@ button1999.addEventListener("click", showPika4);
 
 
 ////
-//button en image 5
+//BUTTON EN IMAGE 5
 ////
 var button2001 = document.querySelector("ol li:nth-of-type(5) button");
 
@@ -93,7 +96,7 @@ button2001.addEventListener("click", showPika5);
 
 
 ////
-//button en image 6
+//BUTTON EN IMAGE 6
 ////
 var button2008 = document.querySelector("ol li:nth-of-type(6) button");
 
@@ -111,7 +114,7 @@ button2008.addEventListener("click", showPika6);
 
 
 ////
-//button en image 7
+//BUTTON EN IMAGE 7
 ////
 var button2010 = document.querySelector("ol li:nth-of-type(7) button");
 
@@ -129,7 +132,7 @@ button2010.addEventListener("click", showPika7);
 
 
 ////
-//button en image 8
+//BUTTON EN IMAGE 8
 ////
 var button2016 = document.querySelector("ol li:nth-of-type(8) button");
 
@@ -147,7 +150,7 @@ button2016.addEventListener("click", showPika8);
 
 
 ////
-//button en image 9
+//BUTTON EN IMAGE 9
 ////
 var button2017 = document.querySelector("ol li:nth-of-type(9) button");
 
@@ -165,7 +168,7 @@ button2017.addEventListener("click", showPika9);
 
 
 ////
-//button en image 10
+//BUTTON EN IMAGE 10
 ////
 var button2018letsgo = document.querySelector("ol li:nth-of-type(10) button");
 
@@ -183,7 +186,7 @@ button2018letsgo.addEventListener("click", showPika10);
 
 
 ////
-//button en image 11
+//BUTTON EN IMAGE 11
 ////
 var button2018smash = document.querySelector("ol li:nth-of-type(11) button");
 
@@ -201,7 +204,7 @@ button2018smash.addEventListener("click", showPika11);
 
 
 ////
-//button en image 12
+//BUTTON EN IMAGE 12
 ////
 var button2019game = document.querySelector("ol li:nth-of-type(12) button");
 
@@ -219,7 +222,7 @@ button2019game.addEventListener("click", showPika12);
 
 
 ////
-//button en image 13
+//BUTTON EN IMAGE 13
 ////
 var button2019movie = document.querySelector("ol li:nth-of-type(13) button");
 
@@ -237,7 +240,7 @@ button2019movie.addEventListener("click", showPika13);
 
 
 ////
-//button en image 14
+//BUTTON EN IMAGE 14
 ////
 var button2022 = document.querySelector("ol li:nth-of-type(14) button");
 
@@ -255,7 +258,7 @@ button2022.addEventListener("click", showPika14);
 
 
 ////
-//button en image 15
+//BUTTON EN IMAGE 15
 ////
 var button2023 = document.querySelector("ol li:nth-of-type(15) button");
 
@@ -273,7 +276,7 @@ button2023.addEventListener("click", showPika15);
 
 
 ////
-//button en image 16
+//BUTTON EN IMAGE 16
 ////
 var buttonfight = document.querySelector("ol li:nth-of-type(16) button");
 
@@ -291,7 +294,7 @@ buttonfight.addEventListener("click", showPika16);
 
 
 ////
-//button en image 17
+//BUTTON EN IMAGE 17
 ////
 var buttonsad = document.querySelector("ol li:nth-of-type(17) button");
 
@@ -309,7 +312,7 @@ buttonsad.addEventListener("click", showPika17);
 
 
 ////
-//button en image 18
+//BUTTON EN IMAGE 18
 ////
 var buttonangry = document.querySelector("ol li:nth-of-type(18) button");
 
@@ -327,7 +330,7 @@ buttonangry.addEventListener("click", showPika18);
 
 
 ////
-//button en image 19
+//BUTTON EN IMAGE 19
 ////
 var buttontail = document.querySelector("ol li:nth-of-type(19) button");
 
@@ -345,7 +348,7 @@ buttontail.addEventListener("click", showPika19);
 
 
 ////
-//button en image 20
+//BUTTON EN IMAGE 20
 ////
 var buttonfunny = document.querySelector("ol li:nth-of-type(20) button");
 
@@ -363,7 +366,7 @@ buttonfunny.addEventListener("click", showPika20);
 
 
 ////
-//button en image 21
+//BUTTON EN IMAGE 21
 ////
 var buttonketchup = document.querySelector("ol li:nth-of-type(21) button");
 
@@ -381,7 +384,7 @@ buttonketchup.addEventListener("click", showPika21);
 
 
 ////
-//button en image 22
+//BUTTON EN IMAGE 22
 ////
 var buttonthunder = document.querySelector("ol li:nth-of-type(22) button");
 
@@ -399,7 +402,7 @@ buttonthunder.addEventListener("click", showPika22);
 
 
 ////
-//button en image 23
+//BUTTON EN IMAGE 23
 ////
 var buttonattack = document.querySelector("ol li:nth-of-type(23) button");
 
@@ -417,7 +420,7 @@ buttonattack.addEventListener("click", showPika23);
 
 
 ////
-//button en image 24
+//BUTTON EN IMAGE 24
 ////
 var buttondance = document.querySelector("ol li:nth-of-type(24) button");
 
@@ -434,13 +437,47 @@ function showPika24() {
 buttondance.addEventListener("click", showPika24);
 
 
-//Sound effect
-//const audio = new Audio(“https://www.101soundboards.com/sounds/14748-22”);
 
-//const buttons = document.querySelectorAll(“button”);
 
-//buttons.forEach(button => {
-    //button.addEventListener(“click”, () => {
-      //audio.play();
-    //});
-  //});
+
+
+const images = document.querySelectorAll("img");
+images.forEach(image => {
+	
+	image.onpointerenter = event => {
+		const music = event.target.nextElementSibling;
+		music.play();
+	};
+	
+	image.onpointerout = event => {
+		const music = event.target.nextElementSibling;
+		music.pause();
+		music.currentTime = 0; // rewind to start of number
+	};
+	
+});
+
+
+
+
+
+//
+// DIALOG / POP-UP
+//
+const dialog = document.querySelector("dialog");
+
+
+// open the dialog when the page is loaded
+dialog.showModal();
+
+
+// close the dialog if clicked on the overlay
+function lightDismiss (event) {
+	const clickedElement = event.target;
+	// not true if clicked on form in dialog
+	if (clickedElement.nodeName == 'DIALOG') {
+		dialog.close();
+	}
+}
+
+dialog.addEventListener('click', lightDismiss);

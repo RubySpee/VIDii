@@ -19,8 +19,10 @@
 
 html {
   background-image: url(../images/background.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-repeat:repeat-x;
+  background-size:auto  100%;
+  background-position: center;
+  height: 100vh;
 }
 
 body {
@@ -47,6 +49,8 @@ button:not([disabled]) {
   --color-h2: white;
   --pokedex: rgb(177, 0, 0);
   --pokedex-scherm: rgb(77, 77, 255);
+  --button-focus: rgb(177, 0, 0);
+  --button-dialog: rgb(177, 0, 0);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -77,6 +81,69 @@ h2 {
   font-family: 'pokemon';
   text-align: center;
 }
+
+
+
+
+
+/**/
+/* DIALOG / POP-UP */
+/**/
+
+/*Van de opdracht in de les https://codepen.io/shooft/pen/jOeyxev?editors=0110*/
+dialog {
+	width:18em;
+  height: 20em;
+	padding:0;
+	
+	background-color: white;
+	border: black solid;
+  border-radius: 1em;
+}
+
+/* translucent layer covering the page */
+/* is part of the dialog element */
+dialog::backdrop {
+	/* style it anyway you want */
+	/* for example --> blur the info beneath the layer --> and make it a bit darker*/
+  backdrop-filter: blur(0.1em) brightness(0.4);
+}
+
+dialog form {	
+	height:100%;
+	padding:1em;
+	
+	display:flex;
+	flex-direction:column;
+	gap:.5em;
+}
+
+dialog form h2 {
+	margin:0;
+  color: var(--color-text);
+  -webkit-text-stroke: 0.5px var(--color-text-stroke);
+	text-align: center;
+  font-size: 1.75em;
+}
+
+dialog form p {
+  color: black;
+  font-size: 0.7em;
+  font-family: 'Press Start 2P';
+  line-height: 1.3em;
+}
+
+.start {
+	padding: 0.5em;
+	
+	background-color: var(--pokedex-scherm);
+  border: none;
+	
+  font-family: 'Press Start 2P';
+	font-size:1em;
+  color: var(--color-text);
+}
+
 
 
 
@@ -153,19 +220,30 @@ li p {
   -webkit-text-stroke: 1px var(--color-text-stroke);
 }
 
-button {
+li button {
   border: none;
   background-color: transparent;
-  outline: none;
+
+  /*Uit de opdracht https://codepen.io/shooft/pen/eYKdyxY*/
+  outline-style: solid;
+	outline-width:.125em;
+	outline-offset: .25em;
+	/* de outline is er altijd */
+	/* maar standaard doorzichtig */
+	outline-color: transparent;
 }
 
-button img {
+li button img {
   overflow: hidden;
   transition-duration: 1.3s;
   transition-property: transform;
 }
-button img:hover {
+li button img:hover {
   transform: rotate(1turn);
+}
+
+li button:focus-visible {
+  outline-color: var(--button-focus);
 }
 
 
@@ -203,6 +281,11 @@ button img:hover {
   width: 270px;
 }
 
+/*.images {
+  display: flex;
+  flex-direction: column;
+}*/
+
 .images img {
   display:none;
   width: 280px;
@@ -215,14 +298,14 @@ button img:hover {
 
 /*animation: MoveUpDown 1s linear infinite;*/
 
-@keyframes MoveUpDown {
+/*@keyframes MoveUpDown {
   0%, 100% {
     bottom: 0;
   }
   50% {
     bottom: 100px;
   }
-}
+}*/
 
 #pikachu16 , 
 #pikachu17 , 
@@ -254,7 +337,12 @@ button img:hover {
     }
 }
 
+main section:nth-child(3) {
+  width: 100%;
+}
+
 main section:nth-child(3) img {
+  width: 100%;
 	animation-name: lucario;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;

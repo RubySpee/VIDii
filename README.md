@@ -31,10 +31,8 @@ Blauw met een tintje rood
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik heb nu al vaker code geschreven, dus wil wat meer uitdagende dingen maken. Wat meer javascript
+  - Meer dingen laten bewegen, dus met animatie tools en ook javascript
  
 </details>
 
@@ -46,24 +44,16 @@ Blauw met een tintje rood
 <details>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
-  ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  ### Feedback:
+  De feedback die ik van Xavier heb gekregen:
+  - Aangezien je de pokemon in het midden ziet met allemaal pokeballen eromheen past het volledig bij dit onderwerp en niet bij iets anders
+  - Een uniek kenmerk zijn de pokeballen
+  - Misschien leuk dat als  je op de pokemon klikt dat hij dan gaat springen of dat hij een bliksemschicht achter laat
+  - Misschien is het leuk om de pokemonball vast te kunnen pakken en naar de pokemon te kunnen gooien
+  - Progressive disclosure is toegepast aangezien je eerst een overzicht ziet en later pas de details
 
-  #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
-
-  ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
-
-  #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
-
-  ### Bevinding 3:
-  ...
+  ### Wijzegingen:
+  Dit is nog echt mijn eerste schets, dus ik moet alles nog veel beter uitwerken. Voor nu zit alles nog in mijn hoofd alleen, dus moet even of betere schetsen maken of beginnen met code zodat ik goed mijn idee kan overbrengen. 
 
 </details>
 
