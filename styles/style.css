@@ -448,7 +448,7 @@ main section:nth-child(6) img {
   width: 100px;
   position:absolute;
   top: 60%;
-  right: 65%;
+  right: 55%;
   z-index: 1;
 
   animation-name: ditto;
