@@ -440,7 +440,9 @@ buttondance.addEventListener("click", showPika24);
 
 
 
-
+//
+// SOUND EFFECTS
+//
 const images = document.querySelectorAll("img");
 images.forEach(image => {
 	
@@ -462,7 +464,7 @@ images.forEach(image => {
 
 
 //
-// DIALOG / POP-UP
+// DIALOG
 //
 const dialog = document.querySelector("dialog");
 
@@ -481,3 +483,25 @@ function lightDismiss (event) {
 }
 
 dialog.addEventListener('click', lightDismiss);
+
+
+
+
+
+//
+// ACHTERGROND MUZIEKJE
+//
+const audio = document.getElementById ("audio");
+const buttons = document.getElementById ("play");
+
+buttons.addEventListener("click", togglePlay);
+
+function togglePlay() {
+    console.log ('test')
+    if (audio.paused) {
+        audio.play();
+    }
+    else {
+        audio.pause();
+    }
+};
