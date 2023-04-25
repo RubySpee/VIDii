@@ -3,11 +3,13 @@ console.log("Howdy!");
 
 
 //REGEL 11 TOT 434 IS ALLEMAAL DEZELFDE CODE VOOR DE PIKACHU AFBEELDINGEN
+//ONDER DEZE CODE VIND JE DE CODE VOOR DE MUZIEK EN DIALOG
 
 
-////
-//BUTTON EN IMAGE 1
-////
+///////////////////////
+// BUTTON EN IMAGE 1 //
+///////////////////////
+
 var button1996 = document.querySelector("ol li:nth-of-type(1) button");
 
 function showPika1() {
@@ -23,9 +25,10 @@ function showPika1() {
 button1996.addEventListener("click", showPika1);
 
 
-////
-//BUTTON EN IMAGE 2
-////
+///////////////////////
+// BUTTON EN IMAGE 2 //
+///////////////////////
+
 var button1998serie = document.querySelector("ol li:nth-of-type(2) button");
 
 function showPika2() {
@@ -41,9 +44,10 @@ function showPika2() {
 button1998serie.addEventListener("click", showPika2);
 
 
-////
-//BUTTON EN IMAGE 3
-////
+///////////////////////
+// BUTTON EN IMAGE 3 //
+///////////////////////
+
 var button1998game = document.querySelector("ol li:nth-of-type(3) button");
 
 function showPika3() {
@@ -59,9 +63,10 @@ function showPika3() {
 button1998game.addEventListener("click", showPika3);
 
 
-////
-//BUTTON EN IMAGE 4
-////
+///////////////////////
+// BUTTON EN IMAGE 4 //
+///////////////////////
+
 var button1999 = document.querySelector("ol li:nth-of-type(4) button");
 
 function showPika4() {
@@ -77,9 +82,10 @@ function showPika4() {
 button1999.addEventListener("click", showPika4);
 
 
-////
-//BUTTON EN IMAGE 5
-////
+///////////////////////
+// BUTTON EN IMAGE 5 //
+///////////////////////
+
 var button2001 = document.querySelector("ol li:nth-of-type(5) button");
 
 function showPika5() {
@@ -95,9 +101,10 @@ function showPika5() {
 button2001.addEventListener("click", showPika5);
 
 
-////
-//BUTTON EN IMAGE 6
-////
+///////////////////////
+// BUTTON EN IMAGE 6 //
+///////////////////////
+
 var button2008 = document.querySelector("ol li:nth-of-type(6) button");
 
 function showPika6() {
@@ -113,9 +120,10 @@ function showPika6() {
 button2008.addEventListener("click", showPika6);
 
 
-////
-//BUTTON EN IMAGE 7
-////
+///////////////////////
+// BUTTON EN IMAGE 7 //
+///////////////////////
+
 var button2010 = document.querySelector("ol li:nth-of-type(7) button");
 
 function showPika7() {
@@ -131,9 +139,10 @@ function showPika7() {
 button2010.addEventListener("click", showPika7);
 
 
-////
-//BUTTON EN IMAGE 8
-////
+///////////////////////
+// BUTTON EN IMAGE 8 //
+///////////////////////
+
 var button2016 = document.querySelector("ol li:nth-of-type(8) button");
 
 function showPika8() {
@@ -149,9 +158,10 @@ function showPika8() {
 button2016.addEventListener("click", showPika8);
 
 
-////
-//BUTTON EN IMAGE 9
-////
+///////////////////////
+// BUTTON EN IMAGE 9 //
+///////////////////////
+
 var button2017 = document.querySelector("ol li:nth-of-type(9) button");
 
 function showPika9() {
@@ -167,9 +177,10 @@ function showPika9() {
 button2017.addEventListener("click", showPika9);
 
 
-////
-//BUTTON EN IMAGE 10
-////
+////////////////////////
+// BUTTON EN IMAGE 10 //
+////////////////////////
+
 var button2018letsgo = document.querySelector("ol li:nth-of-type(10) button");
 
 function showPika10() {
@@ -185,9 +196,10 @@ function showPika10() {
 button2018letsgo.addEventListener("click", showPika10);
 
 
-////
-//BUTTON EN IMAGE 11
-////
+////////////////////////
+// BUTTON EN IMAGE 11 //
+////////////////////////
+
 var button2018smash = document.querySelector("ol li:nth-of-type(11) button");
 
 function showPika11() {
@@ -203,9 +215,10 @@ function showPika11() {
 button2018smash.addEventListener("click", showPika11);
 
 
-////
-//BUTTON EN IMAGE 12
-////
+////////////////////////
+// BUTTON EN IMAGE 12 //
+////////////////////////
+
 var button2019game = document.querySelector("ol li:nth-of-type(12) button");
 
 function showPika12() {
@@ -221,9 +234,10 @@ function showPika12() {
 button2019game.addEventListener("click", showPika12);
 
 
-////
-//BUTTON EN IMAGE 13
-////
+////////////////////////
+// BUTTON EN IMAGE 13 //
+////////////////////////
+
 var button2019movie = document.querySelector("ol li:nth-of-type(13) button");
 
 function showPika13() {
@@ -239,9 +253,10 @@ function showPika13() {
 button2019movie.addEventListener("click", showPika13);
 
 
-////
-//BUTTON EN IMAGE 14
-////
+////////////////////////
+// BUTTON EN IMAGE 14 //
+////////////////////////
+
 var button2022 = document.querySelector("ol li:nth-of-type(14) button");
 
 function showPika14() {
@@ -257,9 +272,10 @@ function showPika14() {
 button2022.addEventListener("click", showPika14);
 
 
-////
-//BUTTON EN IMAGE 15
-////
+////////////////////////
+// BUTTON EN IMAGE 15 //
+////////////////////////
+
 var button2023 = document.querySelector("ol li:nth-of-type(15) button");
 
 function showPika15() {
@@ -275,9 +291,10 @@ function showPika15() {
 button2023.addEventListener("click", showPika15);
 
 
-////
-//BUTTON EN IMAGE 16
-////
+////////////////////////
+// BUTTON EN IMAGE 16 //
+////////////////////////
+
 var buttonfight = document.querySelector("ol li:nth-of-type(16) button");
 
 function showPika16() {
@@ -293,9 +310,10 @@ function showPika16() {
 buttonfight.addEventListener("click", showPika16);
 
 
-////
-//BUTTON EN IMAGE 17
-////
+////////////////////////
+// BUTTON EN IMAGE 17 //
+////////////////////////
+
 var buttonsad = document.querySelector("ol li:nth-of-type(17) button");
 
 function showPika17() {
@@ -311,9 +329,10 @@ function showPika17() {
 buttonsad.addEventListener("click", showPika17);
 
 
-////
-//BUTTON EN IMAGE 18
-////
+////////////////////////
+// BUTTON EN IMAGE 18 //
+////////////////////////
+
 var buttonangry = document.querySelector("ol li:nth-of-type(18) button");
 
 function showPika18() {
@@ -329,9 +348,10 @@ function showPika18() {
 buttonangry.addEventListener("click", showPika18);
 
 
-////
-//BUTTON EN IMAGE 19
-////
+////////////////////////
+// BUTTON EN IMAGE 19 //
+////////////////////////
+
 var buttontail = document.querySelector("ol li:nth-of-type(19) button");
 
 function showPika19() {
@@ -347,9 +367,10 @@ function showPika19() {
 buttontail.addEventListener("click", showPika19);
 
 
-////
-//BUTTON EN IMAGE 20
-////
+////////////////////////
+// BUTTON EN IMAGE 20 //
+////////////////////////
+
 var buttonfunny = document.querySelector("ol li:nth-of-type(20) button");
 
 function showPika20() {
@@ -365,9 +386,10 @@ function showPika20() {
 buttonfunny.addEventListener("click", showPika20);
 
 
-////
-//BUTTON EN IMAGE 21
-////
+////////////////////////
+// BUTTON EN IMAGE 21 //
+////////////////////////
+
 var buttonketchup = document.querySelector("ol li:nth-of-type(21) button");
 
 function showPika21() {
@@ -383,9 +405,10 @@ function showPika21() {
 buttonketchup.addEventListener("click", showPika21);
 
 
-////
-//BUTTON EN IMAGE 22
-////
+////////////////////////
+// BUTTON EN IMAGE 22 //
+////////////////////////
+
 var buttonthunder = document.querySelector("ol li:nth-of-type(22) button");
 
 function showPika22() {
@@ -401,9 +424,10 @@ function showPika22() {
 buttonthunder.addEventListener("click", showPika22);
 
 
-////
-//BUTTON EN IMAGE 23
-////
+////////////////////////
+// BUTTON EN IMAGE 23 //
+////////////////////////
+
 var buttonattack = document.querySelector("ol li:nth-of-type(23) button");
 
 function showPika23() {
@@ -419,9 +443,10 @@ function showPika23() {
 buttonattack.addEventListener("click", showPika23);
 
 
-////
-//BUTTON EN IMAGE 24
-////
+////////////////////////
+// BUTTON EN IMAGE 24 //
+////////////////////////
+
 var buttondance = document.querySelector("ol li:nth-of-type(24) button");
 
 function showPika24() {
@@ -440,9 +465,10 @@ buttondance.addEventListener("click", showPika24);
 
 
 
-//
-// SOUND EFFECTS
-//
+///////////////////
+// SOUND EFFECTS //
+///////////////////
+
 const images = document.querySelectorAll("img");
 images.forEach(image => {
 	
@@ -463,9 +489,11 @@ images.forEach(image => {
 
 
 
-//
-// DIALOG
-//
+////////////
+// DIALOG //
+////////////
+
+// UIT DE OPDRACHT VAN SANNE https://codepen.io/shooft/pen/jOeyxev?editors=1010
 const dialog = document.querySelector("dialog");
 
 
@@ -491,6 +519,8 @@ dialog.addEventListener('click', lightDismiss);
 //
 // ACHTERGROND MUZIEKJE
 //
+// Bron: https://stackoverflow.com/questions/27368778/how-to-toggle-audio-play-pause-with-one-button-or-link
+// EN MET DE HULP VAN SAM
 const audio = document.getElementById ("audio");
 const buttons = document.getElementById ("play");
 

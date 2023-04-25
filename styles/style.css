@@ -18,11 +18,12 @@
 }
 
 html {
-  background-image: url(../images/background.png);
+  height: 100vh;
+
+  background-image: url(../images/background-light.png);
   background-repeat:repeat-x;
   background-size:auto  100%;
   background-position: center;
-  height: 100vh;
 }
 
 body {
@@ -45,18 +46,45 @@ button:not([disabled]) {
 
 :root {
   --color-text: rgb(255, 230, 0);
-  --color-text-stroke: blue;
   --color-h2: white;
   --pokedex: rgb(177, 0, 0);
   --pokedex-scherm: rgb(77, 77, 255);
   --button-focus: rgb(177, 0, 0);
   --button-dialog: rgb(177, 0, 0);
+  --dialog-background: white;
+  --dialog-stroke: black;
+  --dialog-p: black;
+
+  --text-stroke: 0.5px blue;
+  --text-stroke-pokedex: 1px blue;
+  --gif-stroke: 0.3em solid black;
+
+  --font-h1-h2-p: 'pokemon';
+  --font-dialog: 'Press Start 2P';
+
+  --boxshadow-pokedex: 
+  inset -.10em -.10em .25em rgb(102 102 102),
+  inset .10em .10em .25em rgb(255 255 255),
+  0.8em 0.8em 0.6em rgb(0 0 0 / .5);
+  --boxshadow-pokedex-scherm:
+  inset -.15em -.15em .1em rgb(51 58 64),
+  inset .15em .15em .1em rgb(51 58 64);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --pokedex: rgb(117, 0, 0);
     --pokedex-scherm: rgb(13, 13, 177);
+    --dialog-background: rgb(187, 187, 187);
+  }
+
+  html {
+    height: 100vh;
+  
+    background-image: url(../images/background-dark.png);
+    background-repeat:repeat-x;
+    background-size:auto  100%;
+    background-position: center;
   }
 }
 
@@ -69,26 +97,30 @@ button:not([disabled]) {
 /********************/
 
 h1 {
-  color:var(--color-text);
-  -webkit-text-stroke: 0.5px var(--color-text-stroke);
-  font-family: 'pokemon';
   text-align: center;
+  
+  font-family: var(--font-h1-h2-p);
+  color:var(--color-text);
+
+  /*Bron: https://css-tricks.com/adding-stroke-to-web-text/*/
+  -webkit-text-stroke: var(--text-stroke);
 }
 
 h2 {
-  color:var(--color-text);
-  -webkit-text-stroke: 0.5px var(--color-text-stroke);
-  font-family: 'pokemon';
   text-align: center;
+
+  font-family: var(--font-h1-h2-p);
+  color:var(--color-text);
+  -webkit-text-stroke: var(--text-stroke);
 }
 
 
 
 
 
-/**/
+/*******************/
 /* DIALOG / POP-UP */
-/**/
+/*******************/
 
 /*Van de opdracht in de les https://codepen.io/shooft/pen/jOeyxev?editors=0110*/
 body dialog {
@@ -96,8 +128,8 @@ body dialog {
   height: 20em;
 	padding:0;
 	
-	background-color: white;
-	border: black solid;
+	background-color: var(--dialog-background);
+	border: var(--dialog-stroke) solid;
   border-radius: 1em;
 }
 
@@ -110,38 +142,40 @@ body dialog::backdrop {
 }
 
 body dialog form {	
-	height:100%;
-	padding:1em;
-	
 	display:flex;
 	flex-direction:column;
+  
+  height:100%;
+	padding:1em;
+
 	gap:.5em;
 }
 
 body dialog form h2 {
 	margin:0;
+  text-align: center;
+
   color: var(--color-text);
-  -webkit-text-stroke: 0.5px var(--color-text-stroke);
-	text-align: center;
+  -webkit-text-stroke: var(--text-stroke);
   font-size: 1.75em;
 }
 
 body dialog form p {
-  color: black;
-  font-size: 0.7em;
-  font-family: 'Press Start 2P';
   line-height: 1.3em;
+
+  color: var(--dialog-p);
+  font-size: 0.7em;
+  font-family: var(--font-dialog);
 }
 
 .start {
 	padding: 0.5em;
 	
-	background-color: var(--pokedex-scherm);
-  border: none;
-	
-  font-family: 'Press Start 2P';
-	font-size:1em;
+  font-family: var(--font-dialog);
+	font-size: 1em;
   color: var(--color-text);
+  background-color: var(--pokedex-scherm);
+  border: none;
 }
 
 .start:focus-visible {
@@ -152,49 +186,45 @@ body dialog form p {
 
 
 
-/**/
+/***********/
 /* POKEDEX */
-/**/
+/***********/
 
 article {
-  background-color: var(--pokedex);
-  max-width: 34em;
-  padding: 0.7em;
-  margin: 0 auto;
-  
   position: fixed;
   bottom: 0.7em;
   right: 0.5em;
   left: 0.5em;
   justify-content: center;
   z-index: 2;
+  
+  max-width: 34em;
+  padding: 0.7em;
+  margin: 0 auto;
 
-  box-shadow:
-    inset -.10em -.10em .25em rgb(102 102 102),
-    inset .10em .10em .25em rgb(255 255 255),
-    0.8em 0.8em 0.6em rgb(0 0 0 / .5);
+  background-color: var(--pokedex);
+  box-shadow: var(--boxshadow-pokedex);
 }
 
 article section {
   max-width: 30em;
   margin: 0 auto;
-  background-color: var(--pokedex-scherm);
-  box-shadow:
-    inset -.15em -.15em .1em rgb(51 58 64),
-    inset .15em .15em .1em rgb(51 58 64);
   justify-content: center;
+
+  background-color: var(--pokedex-scherm);
+  box-shadow: var(--boxshadow-pokedex-scherm);
 }
 
 ol {
   display: grid;
 	grid-template-columns: repeat(auto-fit, 6em);
   list-style: none;
-  justify-content: center;
   padding: 0.3em;
   gap: 0.6em;
-  
   overflow-y: scroll;
   height: 15em;
+
+  justify-content: center;
 }
 
 /*Bron: https://blog.hubspot.com/website/hide-scrollbar-css#:~:text=To%20hide%20the%20scrollbar%20and%20disable%20scrolling%2C%20we%20can%20use,page)%20or%20a%20container%20element.*/
@@ -212,17 +242,19 @@ li img {
 
 li button img {
   height: 6em;
+
   animation: pokeball;
 }
 
 li p {
-  text-align: center;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
-  font-family: 'pokemon';
+
+  text-align: center;
+  font-family: var(--font-h1-h2-p);
   font-size: x-large;
   color:var(--color-text);
-  -webkit-text-stroke: 1px var(--color-text-stroke);
+  -webkit-text-stroke: var(--text-stroke-pokedex);
 }
 
 li button {
@@ -255,9 +287,9 @@ li button:focus-visible {
 
 
 
-/**/
+/************************/
 /* PIKACHU AFBEELDINGEN */
-/**/
+/************************/
 
 .images {
   display: flex;
@@ -265,32 +297,32 @@ li button:focus-visible {
 }
 
 #pikachu4 {
-  width: 220px;
+  width: 13.75em;
 }
 
 #pikachu5 {
-  width: 280px;
+  width: 17.5em;
 }
 
 #pikachu8 , #pikachu10 {
-  width: 210px;
+  width: 13.125em;
 }
 
 #pikachu12 {
-  width: 250px;
+  width: 15.625em;
 }
 
 #pikachu13 {
-  width: 310px;
+  width: 19.375em;
 }
 
 #pikachu15 {
-  width: 270px;
+  width: 16.875em;
 }
 
 .images img {
   display:none;
-  width: 280px;
+  width: 17.5em;
   height: auto;
 }
 
@@ -322,18 +354,19 @@ li button:focus-visible {
 #pikachu22 ,
 #pikachu23 , 
 #pikachu24 {
-  width: 300px;
+  width: 18.75em;
   margin-top: 2em;
-  border: 0.3em solid black;
+
+  border: var(--gif-stroke);
 }
 
 
 
 
 
-/**/
+/************************/
 /* ACHTERGROND MUZIEKJE */
-/**/
+/************************/
 main section:nth-child(2) img {
   width: 4em;
   position: absolute;
@@ -354,13 +387,17 @@ section:nth-child(2) button {
 	outline-color: transparent;
 }
 
+section:nth-child(2) button:focus-visible {
+  outline-color: var(--button-focus);
+}
 
 
 
 
-/**/
+
+/*************************/
 /* LANGS LOPENDE POKEMON */
-/**/
+/*************************/
 @keyframes lucario{
 	from{
     	left: 100vw;
@@ -375,11 +412,11 @@ main section:nth-child(4) {
 }
 
 main section:nth-child(4) img {
-  width: 400px;
   position:absolute;
   bottom: -10em;
   right: -100%;
   z-index: 3;
+  width: 25em;
 
 	animation-name: lucario;
 	animation-duration: 2s;
@@ -392,9 +429,9 @@ main section:nth-child(4) img {
 
 
 
-/**/
-/*LANGS VLIEGENDE POKEBALL*/
-/**/
+/****************************/
+/* LANGS VLIEGENDE POKEBALL */
+/****************************/
 
 /*Bron: https://codepen.io/AreYouCereal/pen/VLeVQW */
 @keyframes fly {
@@ -415,10 +452,10 @@ main section:nth-child(4) img {
 }
 
 main section:nth-child(5) img {
-  width: 100px;
   position:absolute;
   bottom: 0;
   right: -50%;
+  width: 6.25em;
 
   animation-name: fly;
   animation-duration: 1s;
@@ -431,9 +468,9 @@ main section:nth-child(5) img {
 
 
 
-/**/
-/*DITTO DIE EVEN KOMT KIJKEN*/
-/**/
+/******************************/
+/* DITTO DIE EVEN KOMT KIJKEN */
+/******************************/
 
 @keyframes ditto {
   0%, 100% {
@@ -445,11 +482,11 @@ main section:nth-child(5) img {
 }
 
 main section:nth-child(6) img {
-  width: 100px;
   position:absolute;
   top: 60%;
   right: 55%;
   z-index: 1;
+  width: 6.25em;
 
   animation-name: ditto;
   animation-duration: 6s;
@@ -463,9 +500,9 @@ main section:nth-child(6) img {
 
 
 
-/**/
-/*LANGS VLIEGENDE POKEMON*/
-/**/
+/***************************/
+/* LANGS VLIEGENDE POKEMON */
+/***************************/
 
 @keyframes haunter{
 	from{
@@ -477,11 +514,11 @@ main section:nth-child(6) img {
 }
 
 main section:nth-child(7) img {
-  width: 350px;
   position:absolute;
   top: 10%;
   left: 100%;
   z-index: 3;
+  width: 21.875em;
 
   animation: haunter;
   animation-duration: 4s;
