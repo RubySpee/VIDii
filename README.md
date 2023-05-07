@@ -25,9 +25,12 @@ Blauw met een tintje rood
 <details open>
   <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
 
-  ### De eerste versie/schets:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
+  ### Mijn inspiratie:
+  <img src="readme-images/inspiratie.png" width="375px" alt="inspiratie">
+  
+  Ik had eigenlijk helemaal geen schets. Ik had een hele, HELE slechte mini schets gemaakt tijdens de les, maar die kan ik helaas niet meer vinden. Ik had ook eigenlijk vrij snel mijn idee al veranderd. Meteen na het eerste feedback gesprek, in de tweede les, ben ik meteen iets anders gaan doen. Mijn eerste idee was om boven aan het scherm een plank te maken en daarop alle pokeballen en dat je dan horizontaal kon scrollen en dan erop klikt en dat Pikachu dan verschijnt midden in je scherm. Mijn idee is niet zo erg veranderd, want ik was nog steeds gebleven bij het idee met de pokeballen en dat je door middel van daarop klikken Pikachu ziet. Ik had vorig jaar bij fronted ook iets gemaakt wat met Pokemon te maken had, dus moest daar aan denken en toen kwam ik op het idee om weer een pokedex te maken, dat is toch echt een karakteristieks aan Pokemon. Daardoor kwam ik met het idee om een soort Pokecenter te maken, net als in de game. 
 
+  <img src="readme-images/pokecenter.jpg" width="375px" alt="pokecenter inspiratie">
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
@@ -65,7 +68,8 @@ Blauw met een tintje rood
 <details>
   <summary>Mijn bevindingen + wijzigingen</summary>
   
-  Ik moet nog de paaseieren toevoegen. Dat lukt nog niet, dus dat ga ik deze les vragen aan Sanne. Ik wil graag dat er een pokemon van rechts naar links gaat, onderin het beeld, maar de image wilt niet mee werken. Ik kreeg als feedback dat ik geluid kan gebruiken voor de buttons. Dat wilde ik al gaan doen, dus fijn dat iemand anders ook dat idee heeft. Tijdens de les kregen we een voorbeeld met een pop-up die je krijgt als je de pagina opent en dat er dan een geluidje komt als je erop klikt. Dat wilde ik gaan doen en dat je dan of Pikachu hoort of de titel song van Pokemon. Wat ook een goed punt was, was dat ik soms af en toe nog px gebruik en dat ik beter em of procenten kan gebruiken, dus dat ga ik nog even omrekenen en er em van maken. 
+  Het tweede feedback gesprek heb ik met Maxime gedaan. We waren beide nog heel erg bezig met nog dingen toevoegen, dus we hebben gekeken naar wat we tot nu toe hadden en ook onze ideeën besprokken die we nog hadden. We hebben ook elkaar geholpen met nog wat dingen verzinnen, dus was een goed gesprek. 
+  Ik moet nog de paaseieren toevoegen. Dat lukte nog niet, dus dat ga ik deze les vragen aan Sanne. Ik wil graag dat er een pokemon van rechts naar links gaat, onderin het beeld, maar de image wilt niet mee werken. Ik kreeg als feedback dat ik geluid kan gebruiken voor de buttons. Dat wilde ik al gaan doen, dus fijn dat iemand anders ook dat idee heeft. Tijdens de les kregen we een voorbeeld met een pop-up die je krijgt als je de pagina opent en dat er dan een geluidje komt als je erop klikt. Dat wilde ik gaan doen en dat je dan of Pikachu hoort of de titel song van Pokemon. Wat ook een goed punt was, was dat ik soms af en toe nog px gebruik en dat ik beter em of procenten kan gebruiken, dus dat ga ik nog even omrekenen en er em van maken. 
 
 </details>
 
@@ -102,7 +106,7 @@ Blauw met een tintje rood
   ### Dit was lastig/Is niet gelukt:
   Wat ik ook al hierboven zei, is dat ik het nog steeds lastig vind om zelf code in javascript te schrijven, snap nog steeds niet helemaal wat dan de volgorde is. Ik begrijp de code wel en wat er staat. Net als de code om de Pikachu images te laten verschijnen door middel van een button, die code heeft Sanne geschreven, maar snap wel wat er staat, maar zelf had ik hier niet op gekomen.
   Wat ik heel graag nog had willen toevoegen is een pop-up met informatie over Pikachu, bijvoorbeeld over welke game of seizoen het dan gaat, wie de maker is, leuke weetjes etc. Ik had al alles bijna helemaal af toen ik met dat idee kwam en heb verschillende manier gevonden om dat te doen, dus pop-up, maar bij alle manieren moest ik al mijn geschreven code (mijn volledige html en javascript) helemaal aanpassen. Dat vond ik wat te veel werk en ik wilde ook niet dat de code het niet meer deed. Tuurlijk had ik dan de back-up van Github nog, maar ja, wilde het niet verpesten. Wat ik onder andere wilde proberen is een button on de Pikachu image en als je daar op klikt, komt er informatie tevoorschijn. Alleen ik wist eigenlijk totaal niet hoe ik dat zou moeten doen, want wist niet of je met 1 button, verschillende pop-ups kon laten zien. Een andere manier was een dialog te gebruiken, net als bij m'n begin scherm, alleen dan moest ik al mijn code herschrijven. De laatste manier had ik met Maxime gesprokken, want zij had ook pop-ups gebruikt in haar Mario spelletje en die vond ik er echt goed uitzien. Zij had gebruik gemaakt van een div met daarin dat de informatie en als je op de image klikt, kwam de pop-up tevoorschijn. Alleen hier was het ook weer zo, dat ik dan alles moest herschrijven. Dus dat is me helaas niet gelukt, maar wel goed voor de volgende keer, dat ik goed moet nadenken over mijn idee en wat ik wil maken en dat ik niet op het laatste moment iets wil toevoegen, waardoor ik alles opnieuw mag gaan schrijven.
-  Ik heb ook altijd als ik met code ga werken, dat ik dan echt de grootste idee heb voor de opdracht, maar dan moet ik ook nog die ideeën uitvoeren en dat is vaak het lastige. Ook voor deze opdracht. Ik had nog best wel wat idee, vooral in het begin, maar meeste heb ik niet uitgevoerd, want geen IDEE hoe dat moet. Ik wilde bijvoorbeeld dat je op een pokeball klikt (dus de button waar je op klikt en dat je dan Pikachu krijgt te zien) en dan ie dan veranderd naar een open pokeball, alsof Pikachu eruit is gekomen. En daarbij wilde ik ook dat je dan een flits ziet, net zoals bij een echte pokeball, dus dat je scherm even wit wordt. Uteindelijk heb ik het maar bij een idee gehouden, want heb wel gegoogled naar bijvoorbeeld die licht flits, maar vond helemaal niks. Ja, hoe je een image laat flitsen, maar niet je hele scherm. 
+  Ik heb ook altijd als ik met code ga werken, dat ik dan echt de grootste idee heb voor de opdracht, maar dan moet ik ook nog die ideeën uitvoeren en dat is vaak het lastige. Ook voor deze opdracht. Ik had nog best wel wat idee, vooral in het begin, maar meeste heb ik niet uitgevoerd, want geen IDEE hoe dat moet. Ik wilde bijvoorbeeld dat je op een pokeball klikt (dus de button waar je op klikt en dat je dan Pikachu krijgt te zien) en dan ie dan veranderd naar een open pokeball, alsof Pikachu eruit is gekomen. En daarbij wilde ik ook dat je dan een flits ziet, net zoals bij een echte pokeball, dus dat je scherm even wit wordt. Uteindelijk heb ik het maar bij een idee gehouden, want heb wel gegoogled naar bijvoorbeeld die licht flits, maar vond helemaal niks. Ja, hoe je een image laat flitsen, maar niet je hele scherm. Dus dat had ik graag willen toevoegen, maar ben erg tevreden met hoe het uiteindelijk is geworden en door de geluidjes en animaties vind ik het echt leuk geworden. 
 
   <img src="readme-images/pokeball.png" width="375px" alt="bummer">
 </details>
@@ -112,7 +116,7 @@ Blauw met een tintje rood
 
 ## Bronnenlijst
 
-<details open>
+<details>
 <summary>continu bijhouden terwijl je werkt</summary>
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
