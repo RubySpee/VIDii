@@ -469,6 +469,7 @@ buttondance.addEventListener("click", showPika24);
 // SOUND EFFECTS //
 ///////////////////
 
+// UIT DE OPDRACHT VAN SANNE https://codepen.io/shooft/pen/jOeyxev
 const images = document.querySelectorAll("img");
 images.forEach(image => {
 	
@@ -535,3 +536,4 @@ function togglePlay() {
         audio.pause();
     }
 };
+

@@ -1,4 +1,4 @@
-/*Bron: https://www.fontspace.com/pocket-monk-font-f23540*/
+/*Bron: https://www.fontspace.com/pocket-monk-font-f23540 */
 @font-face {
   font-family: 'pokemon';
   src: url('../fonts/pocketmonk-15ze-webfont.woff2') format('woff2'),
@@ -102,7 +102,7 @@ h1 {
   font-family: var(--font-h1-h2-p);
   color:var(--color-text);
 
-  /*Bron: https://css-tricks.com/adding-stroke-to-web-text/*/
+  /*Bron: https://css-tricks.com/adding-stroke-to-web-text/ */
   -webkit-text-stroke: var(--text-stroke);
 }
 
@@ -122,7 +122,7 @@ h2 {
 /* DIALOG / POP-UP */
 /*******************/
 
-/*Van de opdracht in de les https://codepen.io/shooft/pen/jOeyxev?editors=0110*/
+/*Van de opdracht in de les https://codepen.io/shooft/pen/jOeyxev?editors=0110 */
 body dialog {
 	width:18em;
   height: 20em;
@@ -227,7 +227,7 @@ ol {
   justify-content: center;
 }
 
-/*Bron: https://blog.hubspot.com/website/hide-scrollbar-css#:~:text=To%20hide%20the%20scrollbar%20and%20disable%20scrolling%2C%20we%20can%20use,page)%20or%20a%20container%20element.*/
+/*Bron: https://blog.hubspot.com/website/hide-scrollbar-css#:~:text=To%20hide%20the%20scrollbar%20and%20disable%20scrolling%2C%20we%20can%20use,page)%20or%20a%20container%20element. */
 ol::-webkit-scrollbar {
   display: none;
 }
@@ -261,7 +261,7 @@ li button {
   border: none;
   background-color: transparent;
 
-  /*Uit de opdracht https://codepen.io/shooft/pen/eYKdyxY*/
+  /*Uit de opdracht https://codepen.io/shooft/pen/eYKdyxY */
   outline-style: solid;
 	outline-width:.125em;
 	outline-offset: .25em;
@@ -335,7 +335,6 @@ li button:focus-visible {
 	animation-timing-function: ease-in-out;
 }
 
-/*Bron: https://stackoverflow.com/questions/35990445/how-to-move-a-div-up-and-down-infinitely-in-css3*/
 @keyframes MoveUpDown {
   0%, 100% {
     transform: translateY(0);
@@ -378,7 +377,7 @@ section:nth-child(2) button {
   border: none;
   background-color: transparent;
 
-  /*Uit de opdracht https://codepen.io/shooft/pen/eYKdyxY*/
+  /*Uit de opdracht https://codepen.io/shooft/pen/eYKdyxY */
   outline-style: solid;
 	outline-width:.125em;
 	outline-offset: .25em;

@@ -111,15 +111,17 @@ Blauw met een tintje rood
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  Ik moest in het begin weer heel erg inkomen in het code schrijven. Had het al een tijdje niet meer gedaan, dus moest veel googlen in het begin. Maar na 1 lesje zat dat er wel weer in en ging het opzich wel gemakkelijk. Ik heb ook veel gehaald uit de vorige opdrachten die ik bij Frontend afgelopen jaren heb gedaan, want daar werkte we ook met animaties, custom properties, fonts importeren, veel javescript, dus ik kon nog heel veel halen uit vorige opdrachten. Ik wilde dit keer wat meer proberen, dus niet alleen animaties, maar ook bijvoorbeeld geluid en proberen wat moeilijkere javascript te gebruiken. Al vind ik het nog steeds lastig om eigen javascript te schrijven, weet nooit precies te volgorde van hoe je het moet schrijven. Uiteindelijk snap ik wel wat er staat in code taal, maar het zelf schrijven is nog een dingetje. Daarom heb ik ook hulp daarbij gevraagd aan Sanne en Sam. Het leukste wat ik het geleerd is hoe je een geluidje toevoegt aan een hover, dat maakt het meteen wat leuker en interactief en de code om een image te laten verschijnen als je op een button klikt. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/code-pikachu.png" width="375px" alt="bummer">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
+  Wat ik ook al hierboven zei, is dat ik het nog steeds lastig vind om zelf code in javascript te schrijven, snap nog steeds niet helemaal wat dan de volgorde is. Ik begrijp de code wel en wat er staat. Net als de code om de Pikachu images te laten verschijnen door middel van een button, die code heeft Sanne geschreven, maar snap wel wat er staat, maar zelf had ik hier niet op gekomen.
+  Wat ik heel graag nog had willen toevoegen is een pop-up met informatie over Pikachu, bijvoorbeeld over welke game of seizoen het dan gaat, wie de maker is, leuke weetjes etc. Ik had al alles bijna helemaal af toen ik met dat idee kwam en heb verschillende manier gevonden om dat te doen, dus pop-up, maar bij alle manieren moest ik al mijn geschreven code (mijn volledige html en javascript) helemaal aanpassen. Dat vond ik wat te veel werk en ik wilde ook niet dat de code het niet meer deed. Tuurlijk had ik dan de back-up van Github nog, maar ja, wilde het niet verpesten. Wat ik onder andere wilde proberen is een button on de Pikachu image en als je daar op klikt, komt er informatie tevoorschijn. Alleen ik wist eigenlijk totaal niet hoe ik dat zou moeten doen, want wist niet of je met 1 button, verschillende pop-ups kon laten zien. Een andere manier was een dialog te gebruiken, net als bij m'n begin scherm, alleen dan moest ik al mijn code herschrijven. De laatste manier had ik met Maxime gesprokken, want zij had ook pop-ups gebruikt in haar Mario spelletje en die vond ik er echt goed uitzien. Zij had gebruik gemaakt van een div met daarin dat de informatie en als je op de image klikt, kwam de pop-up tevoorschijn. Alleen hier was het ook weer zo, dat ik dan alles moest herschrijven. Dus dat is me helaas niet gelukt, maar wel goed voor de volgende keer, dat ik goed moet nadenken over mijn idee en wat ik wil maken en dat ik niet op het laatste moment iets wil toevoegen, waardoor ik alles opnieuw mag gaan schrijven.
+  Ik heb ook altijd als ik met code ga werken, dat ik dan echt de grootste idee heb voor de opdracht, maar dan moet ik ook nog die ideeën uitvoeren en dat is vaak het lastige. Ook voor deze opdracht. Ik had nog best wel wat idee, vooral in het begin, maar meeste heb ik niet uitgevoerd, want geen IDEE hoe dat moet. Ik wilde bijvoorbeeld dat je op een pokeball klikt (dus de button waar je op klikt en dat je dan Pikachu krijgt te zien) en dan ie dan veranderd naar een open pokeball, alsof Pikachu eruit is gekomen. En daarbij wilde ik ook dat je dan een flits ziet, net zoals bij een echte pokeball, dus dat je scherm even wit wordt. Uteindelijk heb ik het maar bij een idee gehouden, want heb wel gegoogled naar bijvoorbeeld die licht flits, maar vond helemaal niks. Ja, hoe je een image laat flitsen, maar niet je hele scherm. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/pokeball.png" width="375px" alt="bummer">
 </details>
 
 
@@ -132,7 +134,7 @@ Blauw met een tintje rood
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-De bronnen van de pikachu afbeeldingen en gifs
+### De bronnen van de pikachu afbeeldingen en gifjes
 - https://en.wikipedia.org/wiki/Pikachu 
 - https://gonintendo.com/archives/282500-blast-from-the-past-pokemon-devs-reveal-pikachu-s-squirrel-inspiration
 - https://www.steamgriddb.com/icon/18095
@@ -158,5 +160,23 @@ De bronnen van de pikachu afbeeldingen en gifs
 - https://www.chickensmoothie.com/Forum/viewtopic.php?f=83&t=2468266
 - https://tenor.com/nl/view/pokemon-gif-25141010
 - https://tenor.com/nl/view/pikatchu-detective-dance-detective-pikatchu-dance-pikatchu-detective-pikatchu-gif-14089477
+
+### Overige afbeeldingen/audio
+- Favicon: https://www.pngitem.com/middle/ThohTTx_25-pikachu-face-png-transparent-png/
+- Alle audio komt van https://www.101soundboards.com/
+- Lucario afbeelding: https://www.nicepng.com/ourpic/u2q8w7e6o0o0u2i1_here-comes-anubis-now-a-deep-driving-sweep/
+- Ditto afbeelding: https://www.pokemon.com/nl/pokedex/ditto
+- Haunter afbeelding: https://www.deviantart.com/pokevectors/art/HD-Haunter-02-Side-767761366
+- Pikachu dirigent: https://www.pocketmonsters.net/content/PR_Pokemon_Symphonic_Evolutions_Live_Orchestral_Concert_Tour 
+
+### Bronnen voor de code
+- Font: https://www.fontspace.com/pocket-monk-font-f23540
+- Text stroke: https://css-tricks.com/adding-stroke-to-web-text/
+- Dialog: https://codepen.io/shooft/pen/jOeyxev?editors=0110
+- Hide scrollbar: https://blog.hubspot.com/website/hide-scrollbar-css#:~:text=To%20hide%20the%20scrollbar%20and%20disable%20scrolling%2C%20we%20can%20use,page)%20or%20a%20container%20element.
+- Button focus outline: https://codepen.io/shooft/pen/eYKdyxY
+- Rond vliegende pokeball: https://codepen.io/AreYouCereal/pen/VLeVQW
+- Play music on hover: https://codepen.io/shooft/pen/jOeyxev
+- Achtergrond muziek: https://stackoverflow.com/questions/27368778/how-to-toggle-audio-play-pause-with-one-button-or-link
 
 </details>
