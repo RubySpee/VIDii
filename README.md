@@ -42,7 +42,7 @@ Blauw met een tintje rood
 ## Voortgang/Feedback 1
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + wijzigingen</summary>
 
   ### Feedback:
   De feedback die ik van Xavier heb gekregen:
@@ -63,7 +63,7 @@ Blauw met een tintje rood
 ## Voortgang/Feedback 2
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + wijzigingen</summary>
   
   Ik moet nog de paaseieren toevoegen. Dat lukt nog niet, dus dat ga ik deze les vragen aan Sanne. Ik wil graag dat er een pokemon van rechts naar links gaat, onderin het beeld, maar de image wilt niet mee werken. Ik kreeg als feedback dat ik geluid kan gebruiken voor de buttons. Dat wilde ik al gaan doen, dus fijn dat iemand anders ook dat idee heeft. Tijdens de les kregen we een voorbeeld met een pop-up die je krijgt als je de pagina opent en dat er dan een geluidje komt als je erop klikt. Dat wilde ik gaan doen en dat je dan of Pikachu hoort of de titel song van Pokemon. Wat ook een goed punt was, was dat ik soms af en toe nog px gebruik en dat ik beter em of procenten kan gebruiken, dus dat ga ik nog even omrekenen en er em van maken. 
 
@@ -75,26 +75,9 @@ Blauw met een tintje rood
 ## Voortgang/Feedback 3
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
-  
-  ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  <summary>Mijn bevindingen + wijzigingen</summary>
 
-  #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
-
-  ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
-
-  #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
-
-  ### Bevinding 3:
-  ...
+  Bij het laatste feedback moment, met Dilay, kreeg ik niet echt veel feedback over dingen die ik kon veranderen nog. Ze vond dat het er goed uitzag en ze had niks meer erop aan te merken. Ze had wel een opmerking over progressive disclosure, over dat ik nog niet echt informatie over pikachu liet zien en alleen het plaatje. Daar had ik zelf ook al over nagedacht, alleen ik kwam pas met dat idee, toen ik zo goed als klaar was, dus ik zou dan alles moeten herschrijven om een pop-up met informatie toe te voegen. Ik wilde dat dus wel doen, maar ben er niet aan toe gekomen. Het was daardoor wel leerzamer, want nu heb je alleen een plaatje van Pikachu. Wat ik ook wel grappig vond is dat ze heel erg afgeleid raakte van de andere Pokemons die af en toe op het scherm verschijnen. Ik snap wel wat ze bedoeld, maar ik vond het er goed bij passen en dan gebeurd er ook wat meer op het scherm in plaats van alleen maar klikken op de buttons en dan zie je Pikachu. Dat was eigenlijk alle feedback die ik kreeg, verder was alles goed als je keek naar het beoordelingsformulier. 
 
 </details>
 
@@ -107,7 +90,7 @@ Blauw met een tintje rood
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="readme-images/eindproduct.png" width="375px" alt="final ontwerp">
 
 
   ### Dit ging goed/Heb ik geleerd: 
