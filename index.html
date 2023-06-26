@@ -27,7 +27,7 @@
 				Here in the Pokecenter you can see Pikachu through the years.
 			  </p>
 		  <button class="start">Let's go!</button>
-		</form>
+		</form> 
 	  </dialog>
 
 	<!-- Alle audio bestanden zijn van https://www.101soundboards.com/ -->
@@ -35,50 +35,286 @@
 	<main>
 		<section class="images">
 			<!-- Bron: https://en.wikipedia.org/wiki/Pikachu -->
-			<img id="pikachu1" src="images/1996.png" alt="The first Pikachu in 1996">
+			<button id="info1"><img id="pikachu1" src="images/1996.png" alt="The first Pikachu in 1996"></button>
 			<audio src="sound/pika1.mp3" preload></audio>
+
+			<dialog id="dialog1">
+				<form method="dialog">
+				  <div>
+					<h2>1996</h2>
+					<p>Pikachu was one of several different Pokémon designs conceived by Game Freak's character 
+						development team. Artist Atsuko Nishida is credited as the main person behind Pikachu's design. 
+						According to series producer Satoshi Tajiri, the name is derived from a combination of two 
+						Japanese onomatopoeia: ピカピカ (pikapika), a sparkling sound, and チューチュー (chūchū), a sound a mouse makes.</p>
+				  </div>
+				  <button type="submit" aria-label="sluit 1996">X</button>
+				</form>
+			</dialog>
+
 			<!-- Bron: https://gonintendo.com/archives/282500-blast-from-the-past-pokemon-devs-reveal-pikachu-s-squirrel-inspiration -->
-			<img id="pikachu2" src="images/1998serie.png" alt="Pikachu from the tv show in 1998">
+			<button id="info2"><img id="pikachu2" src="images/1998serie.png" alt="Pikachu from the tv show in 1998"></button>
 			<audio src="sound/pika2.mp3" preload></audio>
+
+			<dialog id="dialog2">
+				<form method="dialog">
+				  <div>
+					<h2>1998</h2>
+					<!--Bron: https://en.wikipedia.org/wiki/Pok%C3%A9mon,_I_Choose_You! -->
+					<p>'Pokémon, I choose you' was the first episode of the Pokémon anime series. Ash Ketchum gets his first pokémon in this
+						episode and it is Pikachu. Ash thinks that Pikachu is cute, but Pikachu gives him an electric shock when he picks him up to hug him.
+					</p>
+				  </div>
+				  <!--Bron: https://www.deviantart.com/dlee1293847/art/Pokemon-Ash-Meets-Pikachu-For-The-First-Time-773474952 -->
+				  <img src="images/pokemon_first_scene.jpg" alt="Pikachu his first scene in the anime series" />
+				  <button type="submit" aria-label="sluit 1998">X</button>
+				</form>
+			</dialog>
+
 			<!-- Bron: https://www.steamgriddb.com/icon/18095 -->
-			<img id="pikachu3" src="images/1998game.png" alt="Pikachu from the 'Hey you Pikachu!' game in 1998">
+			<button id="info3"><img id="pikachu3" src="images/1998game.png" alt="Pikachu from the 'Hey you Pikachu!' game in 1998"></button>
 			<audio src="sound/pika3.mp3" preload></audio>
+
+			<dialog id="dialog3">
+				<form method="dialog">
+				  <div>
+					<h2>1998</h2>
+					<!--Bron: https://en.wikipedia.org/wiki/Hey_You,_Pikachu! -->
+					<p>'Hey You, Pikachu!' is a virtual pet Pokémon spin-off video game for the Nintendo 64 developed by Ambrella and published by 
+						Nintendo. It was released in Japan on December 12, 1998. The main character is asked to test out the PokéHelper, a new device 
+						of Professor Oak's that is used to talk to Pokémon. The player then meets a wild Pikachu and befriends it. Once the player earns 
+						Pikachu's trust, it will come and live in the player's house.</p>
+				  </div>
+				  <img src="images/1998game2.png" alt="The cover of the 'Hey you Pikachu!' game" />
+				  <button type="submit" aria-label="sluit 1998">X</button>
+				</form>
+			</dialog>
+
 			<!-- Bron: https://www.models-resource.com/nintendo_64/supersmashbros/model/5921/ -->
-			<img id="pikachu4" src="images/1999.png" alt="Pikachu from Super Smash Bros in 1999">
+			<button id="info4"><img id="pikachu4" src="images/1999.png" alt="Pikachu from Super Smash Bros in 1999"></button>
 			<audio src="sound/pika4.mp3" preload></audio>
+
+			<dialog id="dialog4">
+				<form method="dialog">
+				  <div>
+					<h2>1999</h2>
+					<!--Bron: https://supersmashbros.fandom.com/wiki/Pikachu -->
+					<p>A male Pikachu's debut to the Smash Bros. series is as one of the eight starter characters.Just like in the games that Pikachu 
+						originates from, he is a small, fast character whose play style is prominently dependent on his speed and powerful electric 
+						attacks. Pikachu's B move, Thunder Jolt, shoots a beam of electricity that bounces along 
+						the stage. His Up-B move is a fast recovery move dubbed the Quick Attack, and his Down-B involves Pikachu striking himself 
+						with Thunder, which blasts anyone else standing in the way.</p>
+				  </div>
+				  <img src="images/supersmashbros1999.png" alt="A picture of Pikachu his in-game description" />
+				  <button type="submit" aria-label="sluit 1999">X</button>
+				</form>
+			</dialog>
+
 			<!-- Bron: https://www.models-resource.com/gamecube/ssbm/model/13213/ -->
-			<img id="pikachu5" src="images/2001.png" alt="Pikachu from Super Smash Bros Melee in 2001">
+			<button id="info5"><img id="pikachu5" src="images/2001.png" alt="Pikachu from Super Smash Bros Melee in 2001"></button>
 			<audio src="sound/pika2.mp3" preload></audio>
+
+			<dialog id="dialog5">
+				<form method="dialog">
+				  <div>
+					<h2>2001</h2>
+					<!--Bron: https://supersmashbros.fandom.com/wiki/Pikachu -->
+					<p>A male Pikachu returns to Melee, once again as a starter character. While his play style is still incredibly similar to its first 
+						appearance in the Smash series, Pikachu is not quite as deadly as it used to be. However, his still a powerful, agile character 
+						and a force to be reckoned with. Pikachu gains Skull Bash as its new Side-B move. He is currently 9th on the tier list.</p>
+				  </div>
+				  <img src="images/supersmashbrosmelee.jpg" alt="The cover of Super Smash Bros Melee" />
+				  <button type="submit" aria-label="sluit 2001">X</button>
+				</form>
+			</dialog>
+
 			<!-- Bron: https://www.models-resource.com/wii/supersmashbrosbrawl/model/3809/ -->
-			<img id="pikachu6" src="images/2008.png" alt="Pikachu from Super Smash Bros Brawl in 2008">
+			<button id="info6"><img id="pikachu6" src="images/2008.png" alt="Pikachu from Super Smash Bros Brawl in 2008"></button>
 			<audio src="sound/pika1.mp3" preload></audio>
+
+			<dialog id="dialog6">
+				<form method="dialog">
+				  <div>
+					<h2>2008</h2>
+					<!--Bron: https://supersmashbros.fandom.com/wiki/Pikachu -->
+					<p>A male Pikachu returns once again as a starter character in Brawl. Visually, Pikachu has barely changed at all from its Melee 
+						design, only being touched up slightly. However, Pikachu was improved from Melee, becoming more powerful in the process. It has 
+						all of his moves from the first two games.</p>
+				  </div>
+				  <!--Bron: https://www.bol.com/nl/nl/p/super-smash-bros-brawl-nintendo-selects/1004004006136002/ -->
+				  <img src="images/supersmashbrosbrawl.jpg" alt="The cover of Super Smash Bros Brawl" />
+				  <button type="submit" aria-label="sluit 2008">X</button>
+				</form>
+			</dialog>
+
 			<!-- Bron: https://www.nicepng.com/ourpic/u2q8r5a9o0i1a9w7_pikachu-pokemon-pokmon-cute-kawaii-pixel-pixelart-pikachu/ -->
-			<img id="pikachu7" src="images/2010.png" alt="Pikachu from the game in 2010">
+			<button id="info7"><img id="pikachu7" src="images/2010.png" alt="Pikachu from the game 'Pokémon Black and White' in 2010"></button>
 			<audio src="sound/pika5.mp3" preload></audio>
+
+			<dialog id="dialog7">
+				<form method="dialog">
+				  <div>
+					<h2>2010</h2>
+					<!--Bron: https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_and_White -->
+					<p>Pokémon Black and White are role-playing video games with adventure elements, presented in a third-person, 
+						overhead perspective. There are three basic screens: an overworld, in which the player navigates the main character; 
+						a battle screen; and the menu, in which the player configures their party, items, or gameplay settings. The player 
+						controls a Pokémon Trainer who begins the game with a single Pokémon and is able to capture more using Poké Balls.</p>
+				  </div>
+				  <img src="images/pokemonblack.jpg" alt="A screenshot of a battle with Pikachu in Pokémon Black and White" />
+				  <button type="submit" aria-label="sluit 2010">X</button>
+				</form>
+			</dialog>
+
 			<!-- Bron: https://www.nwtv.nl/191345/iedere-dag-een-andere-pikachu-verband-met-pokemon-go-fest -->
-			<img id="pikachu8" src="images/2016.png" alt="Pikachu from Pokemon Go in 2016">
+			<button id="info8"><img id="pikachu8" src="images/2016.png" alt="Pikachu from Pokemon Go in 2016"></button>
 			<audio src="sound/pika5.mp3" preload></audio>
+
+			<dialog id="dialog8">
+				<form method="dialog">
+				  <div>
+					<h2>2016</h2>
+					<!--Bron: https://pokemongo.fandom.com/wiki/Pikachu en https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go -->
+					<p>Pokémon Go is a 2016 augmented reality (AR) mobile game, part of the Pokémon 
+						franchise, developed and published by Niantic in collaboration with Nintendo and The Pokémon Company 
+						for iOS and Android devices. Pikachu is an Electric-type Pokémon from the Kanto region. It evolves from 
+						Pichu after being fed 25 candies and evolves into Raichu when fed 50 candies. Pikachu is also one of the 
+						Starter Pokémon available.</p>
+				  </div>
+				  <!--Bron: https://www.techtastic.nl/gaming/straw-hat-pikachu-nu-te-vangen-in-pokemon-go/ -->
+				  <img src="images/pokemongo.jpg" alt="The logo of Pokemon Go with Pikachu" />
+				  <button type="submit" aria-label="sluit 2016">X</button>
+				</form>
+			</dialog>
+
 			<!-- Bron: https://www.pokemon.com/us/pokemon-news/get-ashs-pikachu-wearing-ashs-caps-in-pokemon-sword-or-pokemon-shield -->
-			<img id="pikachu9" src="images/2017.png" alt="Pikachu from the game in 2017">
+			<button id="info9"><img id="pikachu9" src="images/2017.png" alt="Pikachu from the game in 2017"></button>
 			<audio src="sound/pika4.mp3" preload></audio>
+
+			<dialog id="dialog9">
+				<form method="dialog">
+				  <div>
+					<h2>2017</h2>
+					<!--Bron: https://rankedboost.com/pokemon-sword-shield/pikachu/ -->
+					<p>Pokemon Sword and Shield Pikachu is a Electric Type Mouse Pokémon, which makes it weak against Ground type moves. 
+						You can find and catch Pikachu in Route 4 with a 5% chance to appear during All Weather weather. The Max IV Stats 
+						of Pikachu are 35 HP, 55 Attack, 50 SP Attack, 40 Defense, 50 SP Defense, and 90 Speed.</p>
+				  </div>
+				  <img src="images/swordandshield.jpg" alt="A screenshot of the Game 'Pokemon Sword and Shield'" />
+				  <button type="submit" aria-label="sluit 2017">X</button>
+				</form>
+			</dialog>
+
 			<!-- Bron: https://pokemonletsgo.pokemon.com/en-us/ -->
-			<img id="pikachu10" src="images/2018letsgo.png" alt="Pikachu from the 'Lets go Pikachu'game in 2018">
+			<button id="info10"><img id="pikachu10" src="images/2018letsgo.png" alt="Pikachu from the 'Lets go Pikachu'game in 2018"></button>
 			<audio src="sound/pika5.mp3" preload></audio>
+
+			<dialog id="dialog10">
+				<form method="dialog">
+				  <div>
+					<h2>2018</h2>
+					<!--Bron: https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Let%27s_Go,_Pikachu!_and_Let%27s_Go,_Eevee! -->
+					<p>Let's Go, Pikachu! feature common elements of the main series, such as battling non-player character 
+						Pokémon Trainers and Gym Leaders with caught Pokémon creatures. However, when facing wild Pokémon, instead of battling 
+						them with the traditional battle system like in past games, the catching of Pokémon uses a system that is reminiscent of 
+						the mobile spin-off game Pokémon Go. By using the motion controls of the Joy-Con controller</p>
+				  </div>
+				  <img src="images/letsgopika.jpg" alt="A screenshot of the game 'Let's go Pikachu!'" />
+				  <button type="submit" aria-label="sluit 2018">X</button>
+				</form>
+			</dialog>
+
 			<!-- Bron: https://www.smashbros.com/nl_NL/fighter/08.html -->
-			<img id="pikachu11" src="images/2018smash.png" alt="Pikachu from Super Smash Bros Ultimate in 2018">
+			<button id="info11"><img id="pikachu11" src="images/2018smash.png" alt="Pikachu from Super Smash Bros Ultimate in 2018"></button>
 			<audio src="sound/pika1.mp3" preload></audio>
-			<!-- Bron: https://www.bbc.com/news/newsbeat-47387396 -->
-			<img id="pikachu12" src="images/2019game.png" alt="Pikachu from the game in 2019">
+
+			<dialog id="dialog11">
+				<form method="dialog">
+				  <div>
+					<h2>2018</h2>
+					<!--Bron: https://supersmashbros.fandom.com/wiki/Pikachu_(Super_Smash_Bros._Ultimate) -->
+					<p>Pikachu is a veteran fighter in Super Smash Bros. Ultimate, first playable in Super Smash Bros. He/She was confirmed to return 
+						on June 12th, 2018 during E3 2018. Pikachu remains relatively the same, although now he/she has two new female-exclusive alternate 
+						costumes (the Sun/Moon female protagonist and Libre Cosplay). Each female version of Pikachu acquires a heart-shaped tip of the end of its tail.</p>
+				  </div>
+				  <img src="images/supersmashbrosultimate.jpg" alt="A screenshot of the game 'Super Smash Bros Ultimate'" />
+				  <button type="submit" aria-label="sluit 2018">X</button>
+				</form>
+			</dialog>
+
+			<!-- Bron: https://detectivepikachu.pokemon.com/nl-nl/ -->
+			<button id="info12"><img id="pikachu12" src="images/2019game.png" alt="Pikachu from the game 'Detective Pikachu' in 2019"></button>
 			<audio src="sound/pika2.mp3" preload></audio>
+
+			<dialog id="dialog12">
+				<form method="dialog">
+				  <div>
+					<h2>2019</h2>
+					<!--Bron: https://en.wikipedia.org/wiki/Detective_Pikachu_(video_game) -->
+					<p>Detective Pikachu is an adventure game developed by Creatures Inc., published by Nintendo and The Pokémon 
+						Company, for the Nintendo 3DS family of systems. The game is a spin-off of the Pokémon franchise, in which the player works with a talking Pikachu to 
+						solve various mysteries. The game begins with a peculiar talking Pikachu, who claims to be a great detective. One day, Pikachu encounters a boy named 
+						Tim Goodman, who is able to understand what he is saying. They are immediately put to the test with retrieving a stolen necklace from thieving Aipom</p>
+				  </div>
+				  <img src="images/Detective_Pikachu.jpg" alt="The cover of the game 'Detective Pikachu'" />
+				  <button type="submit" aria-label="sluit 1998">X</button>
+				</form>
+			</dialog>
+
 			<!-- Bron: https://www.deviantart.com/mintmovi3/art/Detective-Pikachu-2019-Pikachu-png-794395457 -->
-			<img id="pikachu13" src="images/2019movie.png" alt="Pikachu from the 'Detective Pikachu' movie in 2019">
+			<button id="info13"><img id="pikachu13" src="images/2019movie.png" alt="Pikachu from the 'Detective Pikachu' movie in 2019"></button>
 			<audio src="sound/pika3.mp3" preload></audio>
+
+			<dialog id="dialog13">
+				<form method="dialog">
+				  <div>
+					<h2>2019</h2>
+					<!--Bron: https://en.wikipedia.org/wiki/Detective_Pikachu_(film) -->
+					<p>Pokémon Detective Pikachu is a 2019 mystery fantasy comedy film directed by Rob Letterman. It was the first live-action Pokémon film and the first live-action 
+						film based on a Nintendo game property since Super Mario Bros. (1993). Ryan Reynolds stars as the voice and facial motion capture of Pikachu. The plot follows 
+						former Pokémon trainer Tim Goodman and the titular Pokémon as they attempt to solve the mysterious disappearance of Tim's father, Harry.</p>
+				  </div>
+				  <img src="images/Detective_Pikachu2.jpg" alt="A picture from the movie 'Detective Pikachu'" />
+				  <button type="submit" aria-label="sluit 1998">X</button>
+				</form>
+			</dialog>
+
 			<!-- Bron: https://gamerant.com/pokemon-legends-arceus-where-find-pikachu/ -->
-			<img id="pikachu14" src="images/2022.png" alt="Pikachu from the game in 2022">
+			<button id="info14"><img id="pikachu14" src="images/2022.png" alt="Pikachu from the game in 2022"></button>
 			<audio src="sound/pika4.mp3" preload></audio>
+
+			<dialog id="dialog14">
+				<form method="dialog">
+				  <div>
+					<h2>2022</h2>
+					<!--Bron: https://en.wikipedia.org/wiki/Pok%C3%A9mon_Legends:_Arceus -->
+					<p>Pokémon Legends: Arceus is an action role-playing game that preserves the core gameplay of past entries in the mainline series.[1] The player is able to roam freely 
+						across the game map, divided into five large areas of individual biomes. Each time the player enters such areas, they spawn in a camp, and can fast travel to other 
+						camps in the same area. Outside of traversing the landscape on foot, the player can unlock rideable Pokémon which can travel faster, swim across bodies of water, climb cliffs, or fly.</p>
+				  </div>
+				  <img src="images/pokemonarceus.jpg" alt="The cover of the game 'Pokémon Legends: Arceus'" />
+				  <button type="submit" aria-label="sluit 2022">X</button>
+				</form>
+			</dialog>
+
 			<!-- Bron: https://www.n1up.nl/news/pokemon-anime-onthult-captain-pikachu-en-professor-friede/ -->
-			<img id="pikachu15" src="images/2023.png" alt="Captain Pikachu from the tv show in 2023">
+			<button id="info15"><img id="pikachu15" src="images/2023.png" alt="Captain Pikachu from the new season in 2023"></button>
 			<audio src="sound/pika5.mp3" preload></audio>
+
+			<dialog id="dialog15">
+				<form method="dialog">
+				  <div>
+					<h2>1996</h2>
+					<!--Bron: https://bulbapedia.bulbagarden.net/wiki/Captain_Pikachu -->
+					<p>Captain Pikachu is Friede's partner Pokémon. He sits in the chair on the bridge of the Brave Asagi, the Rising Volt Tacklers' ship, and is responsible for navigating it when Friede is not 
+						present. Captain Pikachu is often seen outside of his Poké Ball. He is shown to be diligent and responsible, as he seems to take his position of captain seriously, being easily distinguished 
+						from the rest of his species for wearing a captain's beret outside of battles.</p>
+				  </div>
+				  <img src="images/pikachu2023.png" alt="A picture from the new season with captain pikachu and Friede" />
+				  <button type="submit" aria-label="sluit 2023">X</button>
+				</form>
+			</dialog>
+
+
 
 			<!-- Bron: https://tenor.com/nl/view/pikachu-fighting-gif-24987105 -->
 			<img id="pikachu16" src="images/fighting-pikachu.gif" alt="A gif of Pikachu fighting">
@@ -112,100 +348,100 @@
 				<ol>
 					<h2>Pikachu through the years</h2>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball 1996"></button>
 						<p>1996</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball 1998"></button>
 						<p>1998</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball 1998"></button>
 						<p>1998</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball 1999"></button>
 						<p>1999</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball 2001"></button>
 						<p>2001</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball 2008"></button>
 						<p>2008</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball 2010"></button>
 						<p>2010</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball 2016"></button>
 						<p>2016</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball 2017"></button>
 						<p>2017</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball 2018"></button>
 						<p>2018</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball 2018"></button>
 						<p>2018</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball 2019"></button>
 						<p>2019</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball 2019"></button>
 						<p>2019</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball 2022"></button>
 						<p>2022</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball 2023"></button>
 						<p>2023</p>
 					</li>
 					<h2>Fun gifs from Pikachu</h2>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball fighting"></button>
 						<p>Fighting</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball sad"></button>
 						<p>Sad</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball angry"></button>
 						<p>Angry</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball tail whip"></button>
 						<p>Tail Whip</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball funny"></button>
 						<p>Funny</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball ketchup"></button>
 						<p>Ketchup</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball thunder"></button>
 						<p>Thunder</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball attack"></button>
 						<p>Attack</p>
 					</li>
 					<li>
-						<button><img src="images/Pokeball.png" alt="Pokeball"></button>
+						<button><img src="images/Pokeball.png" alt="Pokeball dance"></button>
 						<p>Dance</p>
 					</li>
 				</ol>

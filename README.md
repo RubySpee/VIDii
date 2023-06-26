@@ -112,7 +112,14 @@ Blauw met een tintje rood
 </details>
 
 
+## Herkansing
 
+<details>
+  <summary>De herkansing</summary>
+
+  Ik heb voor mijn herkansing een dialog toegevoegd. Er miste nog wat informatie op mijn website, dus dacht dat een dialog daar wel de goeie oplossing voor was. In de dialog vind je informatie over de game of de serie waarvan het plaatje is. Inofrmatie of de game of over Pikachu zelf (bijvoorbeeld welke aanvallen hij heeft in de game). Ik heb hier 1 GROOT ding van geleerd, begin met alles buttons maken, als je dat aan het einde doet, dan stoppen sommige functies ermee en moet je alles aanpassen. Ik dacht doe ik wel even, nou nee. Met hulp heb ik het voor elkaar gekregen, maar alleen had ik dit echt niet kunnen aanpassen. Ik zat wel in de buurt met wat ik moest doen, maar het was het net niet.
+
+</details>
 
 ## Bronnenlijst
 
@@ -165,5 +172,24 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 - Rond vliegende pokeball: https://codepen.io/AreYouCereal/pen/VLeVQW
 - Play music on hover: https://codepen.io/shooft/pen/jOeyxev
 - Achtergrond muziek: https://stackoverflow.com/questions/27368778/how-to-toggle-audio-play-pause-with-one-button-or-link
+
+### Informatie en plaatjes op dialog
+- https://en.wikipedia.org/wiki/Pikachu
+- https://www.deviantart.com/dlee1293847/art/Pokemon-Ash-Meets-Pikachu-For-The-First-Time-773474952 
+- https://en.wikipedia.org/wiki/Pok%C3%A9mon,_I_Choose_You!
+- https://en.wikipedia.org/wiki/Hey_You,_Pikachu!
+- https://supersmashbros.fandom.com/wiki/Pikachu
+- https://www.bol.com/nl/nl/p/super-smash-bros-brawl-nintendo-selects/1004004006136002/
+- https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_and_White 
+- https://pokemongo.fandom.com/wiki/Pikachu 
+- https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go
+- https://www.techtastic.nl/gaming/straw-hat-pikachu-nu-te-vangen-in-pokemon-go/ 
+- https://rankedboost.com/pokemon-sword-shield/pikachu/ 
+- https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Let%27s_Go,_Pikachu!_and_Let%27s_Go,_Eevee! 
+- https://supersmashbros.fandom.com/wiki/Pikachu_(Super_Smash_Bros._Ultimate) 
+- https://en.wikipedia.org/wiki/Detective_Pikachu_(video_game)
+- https://en.wikipedia.org/wiki/Detective_Pikachu_(film) 
+- https://en.wikipedia.org/wiki/Pok%C3%A9mon_Legends:_Arceus
+- https://bulbapedia.bulbagarden.net/wiki/Captain_Pikachu 
 
 </details>

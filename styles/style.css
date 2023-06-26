@@ -28,10 +28,24 @@ html {
 
 body {
   margin:0;
+  overflow: hidden;
 }
 
 button:not([disabled]) {
   cursor:pointer;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.395);
 }
 
 
@@ -133,11 +147,7 @@ body dialog {
   border-radius: 1em;
 }
 
-/* translucent layer covering the page */
-/* is part of the dialog element */
 body dialog::backdrop {
-	/* style it anyway you want */
-	/* for example --> blur the info beneath the layer --> and make it a bit darker*/
   backdrop-filter: blur(0.1em) brightness(0.4);
 }
 
@@ -227,11 +237,6 @@ ol {
   justify-content: center;
 }
 
-/*Bron: https://blog.hubspot.com/website/hide-scrollbar-css#:~:text=To%20hide%20the%20scrollbar%20and%20disable%20scrolling%2C%20we%20can%20use,page)%20or%20a%20container%20element. */
-ol::-webkit-scrollbar {
-  display: none;
-}
-
 li {
   width: 96px;
 }
@@ -296,36 +301,46 @@ li button:focus-visible {
   justify-content: center;
 }
 
-#pikachu4 {
-  width: 13.75em;
+#pikachu1, #pikachu3, #pikachu6, 
+#pikachu7, #pikachu15  {
+  width: 20em;
 }
 
-#pikachu5 {
-  width: 17.5em;
+#pikachu2, #pikachu9, 
+#pikachu11, #pikachu14 {
+  width: 22em;
 }
 
-#pikachu8 , #pikachu10 {
-  width: 13.125em;
+#pikachu4, #pikachu8, #pikachu10 {
+  width: 17em;
 }
 
-#pikachu12 {
-  width: 15.625em;
+#pikachu5, #pikachu12 {
+  width: 19em;
 }
 
 #pikachu13 {
-  width: 19.375em;
+  width: 24em;
 }
 
-#pikachu15 {
-  width: 16.875em;
+.images button {
+  padding: 0;
 }
 
-.images img {
-  display:none;
+
+
+.images > button img,
+.images > img {
   width: 17.5em;
   height: auto;
 }
 
+.images > button,
+.images > img {
+  display:none;
+}
+
+.images button.show,
 .images img.show {
   display:block;
 
@@ -368,14 +383,14 @@ li button:focus-visible {
 /************************/
 main section:nth-child(2) img {
   width: 4em;
-  position: absolute;
-  left: 1em;
-  top: 1em;
 }
 
 section:nth-child(2) button {
   border: none;
   background-color: transparent;
+  position: absolute;
+  left: 1em;
+  top: 1em;
 
   /*Uit de opdracht https://codepen.io/shooft/pen/eYKdyxY */
   outline-style: solid;
@@ -524,4 +539,90 @@ main section:nth-child(7) img {
   animation-iteration-count: 1;
   animation-timing-function: linear;
   animation-delay: 25s;
+}
+
+
+
+
+
+.images button {
+	appearance:none;
+	background:none;
+  border: none;
+}
+
+.images dialog {
+	width:80%;
+	max-width:40em;
+	padding:0;
+  height: 30em;
+	
+	border: solid var(--dialog-stroke);
+  border-radius: 1em;
+}
+
+/* translucent layer covering the page */
+/* is part of the dialog element */
+.images dialog::backdrop {
+	/* style it anyway you want */
+	/* for example --> blur the info beneath the layer --> and make it a bit darker*/
+    backdrop-filter: blur(0.1em) brightness(0.4);
+}
+
+/* dialog content */
+.images dialog form {	
+	min-height:24em;
+  background-color: var(--dialog-background);
+}
+
+/* div met daarin h2 en p */
+.images dialog form div {
+	position:relative;
+	z-index:100;
+	padding:1em 5em 0.5em 2em;
+}
+
+.images dialog h2 {
+  left: 6em;
+  font-family: 'pokemon';
+  font-size: 2.3em;
+  color: var(--color-text);
+  -webkit-text-stroke: var(--text-stroke);
+}
+
+.images dialog p {
+  font-family: 'Press Start 2P';
+  font-size: 0.8em;
+}
+
+.images dialog img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 0.8em;
+  border: solid var(--dialog-stroke);
+}
+
+/* sluit button */
+.images dialog button {
+	position: absolute;
+	right: .5em;
+	top: .5em;
+	z-index: 200;
+	
+	width: 1.5em;
+	aspect-ratio: 1/1;
+	
+	appearance: none;
+	background: none;
+	border: solid .1em var(--dialog-stroke);
+	
+	font-size: 2em;
+	font-weight: bold;
+	color: var(--dialog-p);
+}
+
+.images dialog button:focus-visible {
+  outline-color: var(--button-focus);
 }
